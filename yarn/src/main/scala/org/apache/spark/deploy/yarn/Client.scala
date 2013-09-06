@@ -33,7 +33,8 @@ import org.apache.hadoop.yarn.conf.YarnConfiguration
 import org.apache.hadoop.yarn.ipc.YarnRPC
 import scala.collection.mutable.HashMap
 import scala.collection.JavaConversions._
-import org.apache.spark.{Logging, Utils}
+import org.apache.spark.Logging
+import org.apache.spark.util.Utils
 import org.apache.hadoop.yarn.util.{Apps, Records, ConverterUtils}
 import org.apache.hadoop.yarn.api.ApplicationConstants.Environment
 import org.apache.spark.deploy.SparkHadoopUtil
