@@ -20,6 +20,7 @@ package org.apache.spark.scheduler.cluster
 import org.apache.spark._
 import org.apache.spark.deploy.yarn.{ApplicationMaster, YarnAllocationHandler}
 import org.apache.hadoop.conf.Configuration
+import org.apache.spark.util.Utils
 
 /**
  *
